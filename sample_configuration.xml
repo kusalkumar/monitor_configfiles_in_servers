@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<server>
+    <connections>
+        <totalconn>2</totalconn>>
+    </connections>
+    <serverdetails>
+        <host>host_ip1</host>
+        <username>username_1</username>
+        <password>password_1</password>
+        <remotelocation>/file_path</remotelocation>
+		<localpath>/localfilepath</localpath>
+		<port>22</port>
+    </serverdetails>
+    <serverdetails>
+        <host>host_ip2</host>
+        <username>username2</username>
+        <password>password2</password>        
+        <remotelocation>/remote_file_path</remotelocation>
+		<localpath>/local_file_path</localpath>
+		<port>22</port>
+    </serverdetails>
+</server>
+
