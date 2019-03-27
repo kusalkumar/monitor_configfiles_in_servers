@@ -33,7 +33,7 @@ def repeat_task():
                     ssh_obj.parsefile(connection_in_str, connection[4])
 
                     #sendingthe mail to user with updated file as attachement
-                    mail_inst = send_email(connection[4])
+                    mail_inst = send_email(connection_in_str, connection[4])
                     mail_inst.send_mail_alert()
                     timestamp_dict[connection_in_str] = command_output[0]
 
