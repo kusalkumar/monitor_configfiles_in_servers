@@ -97,7 +97,7 @@ if __name__ == '__main__':
         elif option == "xmlfile":
             list_array = menu_for_xml()
             break
-        elif option == "Excel file":
+        elif option == "excelfile":
             list_array = menu_for_xla()
             break
         else:
